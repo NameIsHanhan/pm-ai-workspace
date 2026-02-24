@@ -54,7 +54,7 @@ pm-ai-workspace/
 | 文件/目录 | 重要性 | 说明 |
 |-----------|--------|------|
 | `AGENT.md` | ⭐ 核心 | 全局知识库，AI 的"大脑" |
-| `.trae/` | ⭐ 核心 | AI 配置中心，包含规则、技能和工作流 |
+| `.trae/` | ⭐ 核心 | AI 配置中心，包含规则（Rules）、技能包（Skills）和工作流（Workflows） |
 | 其他目录 | 📌 建议 | 按需使用，灵活调整 |
 
 ### 第二步：启动工作流
@@ -65,6 +65,7 @@ pm-ai-workspace/
    - `1-analyze-requirement.md` → 需求洞察
    - `2-design-solution.md` → 方案架构
    - `3-generate-specs.md` → 规格生成
+   - `4-verify-iterate.md` → 验证迭代
 
 ### 第三步：开始产出
 
@@ -91,7 +92,7 @@ pm-ai-workspace/
 
 ### 1. 善用 AI 工作流
 
-按照 **分析 → 设计 → 生成** 的三阶段工作流，让 AI 逐步深入理解需求并输出高质量文档。
+按照 **分析 → 设计 → 生成 → 验证** 的四阶段工作流，让 AI 逐步深入理解需求并输出高质量文档。借助 `.trae/skills/` 中的专业技能包（Requirement-Clarifier、Data-Modeler、Edge-Case-Detector），进一步提升每个阶段的输出质量。
 
 ### 2. 积累知识库
 
