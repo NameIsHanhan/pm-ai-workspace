@@ -65,6 +65,7 @@ pm-ai-workspace/
    - `1-analyze-requirement.md` → 需求洞察
    - `2-design-solution.md` → 方案架构
    - `3-generate-specs.md` → 规格生成
+   - `4-verify-iterate.md` → 验证迭代
 
 ### 第三步：开始产出
 
@@ -76,7 +77,7 @@ pm-ai-workspace/
 
 | 文件夹 | 用途 | 必要性 |
 |--------|------|--------|
-| `.trae/` | AI 配置中心：规则、技能包、工作流 | 强制推荐 |
+| `.trae/` | AI 配置中心：项目规则（rules/）、技能包（skills/）、工作流（workflows/） | 强制推荐 |
 | `analysis/` | 业务分析：数据分析、流程推演、影响范围 | 建议 |
 | `assets/` | 资源管理：图片、图标、原型图、流程图 | 建议 |
 | `context/` | 项目上下文：背景信息、目标用户、核心策略 | 建议 |
