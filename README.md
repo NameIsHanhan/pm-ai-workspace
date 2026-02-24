@@ -1,0 +1,3 @@
+# PM AI Workspace
+
+> 产品经理 AI 工作空间 - 初始化中...
